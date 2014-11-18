@@ -1,8 +1,8 @@
 char data;
 
 void setup(){  
-   pinMode(13,OUTPUT);  //stock led on arduino uno board 
-   Serial.begin(9600); //stock baud rate of HC-06 module
+   pinMode(13,OUTPUT);  //default led on arduino uno board 
+   Serial.begin(9600); //default baud rate of HC-06 module
    Serial.flush();
 }
 
